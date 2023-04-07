@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63bb3548-4695-419e-b215-f3d1d1b6e1e4" name="变更" comment="" />
+    <list default="true" id="63bb3548-4695-419e-b215-f3d1d1b6e1e4" name="变更" comment="Airbnb基本完善">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/AppHeader/components/HeaderCenter/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/AppHeader/components/HeaderCenter/index.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,8 +98,23 @@
       <workItem from="1680578456048" duration="7731000" />
       <workItem from="1680678551145" duration="11716000" />
       <workItem from="1680779967572" duration="2384000" />
-      <workItem from="1680833371296" duration="2091000" />
+      <workItem from="1680833371296" duration="4882000" />
     </task>
+    <task id="LOCAL-00001" summary="Airbnb基本完善">
+      <created>1680837784416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680837784416</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Airbnb基本完善">
+      <created>1680838012914</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680838012914</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,5 +130,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Airbnb基本完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="Airbnb基本完善" />
   </component>
 </project>
