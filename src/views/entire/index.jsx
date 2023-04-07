@@ -10,16 +10,17 @@ import EntirePagination from "@v/entire/components/EntirePagination";
 const Entire = memo(() => {
 
   const dispatch = useDispatch()
-  useEffect(() => {
-    dispatch(setHeaderConfig({ isFixed: true }))
-    dispatch(getRoomListAction())
-  }, [dispatch])
+    useEffect(() => {
+        dispatch(setHeaderConfig({ isFixed: true, topTM: false }))
+        dispatch(getRoomListAction())
+    }, [dispatch])
 
-  return <EntireWrapper>
-    <EntireFilter />
-    <EntireList />
-    <EntirePagination />
-  </EntireWrapper>
+  return(
+      <EntireWrapper>
+        <EntireFilter />
+        <EntireList />
+        <EntirePagination />
+      </EntireWrapper>)
 })
 
 Entire.displayName = 'Entire'

@@ -20,9 +20,6 @@ const HeaderReact = memo( () => {
 
     }, [] )
 
-
-
-
     const panel = (
         <div className='panel'>
             <div className='top'>

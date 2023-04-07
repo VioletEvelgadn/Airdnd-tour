@@ -5,7 +5,8 @@ import {
     getHomeGoodPriceData,
     getHomeHighScoreData,
     getHomeHotData,
-    getHomeLongforData, getHomePlusData
+    getHomeLongforData,
+    getHomePlusData
 } from "@/api/modules/home";
 
 // 创建切片【模块】
@@ -13,10 +14,10 @@ const homeSlice = createSlice({
   name: 'home',
   initialState: {
       isLoading: true,
-      good: {},
-      high: {},
-      hot: {},
-      discount: {},
+      good: {}, // 优质房源
+      high: {}, // 高分房源
+      hot: {}, // 热门房源
+      discount: {}, // 折扣房源
       longfor: {}, // 猜你想去
       plus: {}, // plus房源
   },

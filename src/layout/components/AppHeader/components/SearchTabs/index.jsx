@@ -1,7 +1,7 @@
 import React, { memo, useState } from 'react'
 import classNames from "classnames";
 
-const Index = memo(({titles = [], tabClick}) => {
+const SearchTabs = memo(({titles = [], tabClick}) => {
   const [current, setCurrent] = useState(0)
 
   const clickHandle = (index) => {
@@ -24,6 +24,6 @@ const Index = memo(({titles = [], tabClick}) => {
   </div>
 })
 
-Index.displayName = 'Index'
+SearchTabs.displayName = 'SearchTabs'
 
-export default Index
+export default SearchTabs

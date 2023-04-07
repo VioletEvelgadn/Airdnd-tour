@@ -17,7 +17,7 @@ export const CenterWrapper = styled.div`
   display: flex;
   justify-content: center;
   height: 48px;
-  
+
   .search-bar {
     position: absolute;
     ${fc};
@@ -30,7 +30,7 @@ export const CenterWrapper = styled.div`
     border-radius: 24px;
     cursor: pointer;
     transform-origin: center top;
-    
+
 
     ${shadow}
     .text {
@@ -52,11 +52,9 @@ export const CenterWrapper = styled.div`
   .search-tabs {
     position: relative;
     transform-origin: center top;
-
     .tabs {
       display: flex;
-      color: #222;
-
+      color: ${props => props.theme.isTM ? '#FFF' : '#222'};
       .tab {
         width: 64px;
         cursor: pointer;
@@ -66,7 +64,7 @@ export const CenterWrapper = styled.div`
         font-size: 16px;
 
         &.active {
-          border-bottom: 2px solid #333;
+          border-bottom: 2px solid ${props => props.theme.isTM ? '#FFF' : '#333'};
         }
       }
     }
@@ -170,7 +168,7 @@ export const LeftWrapper = styled.div`
   flex: 1;
   cursor: pointer;
   .logo {
-    color: var(--p-color);
+    color: ${props => props.theme.isTM ? '#FFF' : 'var(--p-color)'} ;
   }
   .icon {
     display: inline-block;
@@ -182,17 +180,21 @@ export const RightWrapper = styled.div`
   flex: 1;
   ${fc};
   justify-content: flex-end;
+
   .btns {
     display: flex;
     align-items: center;
     font-weight: bold;
     margin-right: 5px;
+    color: ${props => props.theme.isTM ? '#FFF' : 'var(--text-color)'};
+
     .btn {
       padding: 11px 14px;
       cursor: pointer;
       border-radius: 22px;
+
       &:hover {
-        background-color: rgb(245, 245, 245);
+        background-color: ${props => props.theme.isTM ? 'rgba(255, 255, 255, 0.1)' : 'rgb(245, 245, 245)'};
       }
     }
   }
@@ -202,7 +204,8 @@ export const RightWrapper = styled.div`
     width: 77px;
     height: 42px;
     justify-content: space-around;
-    border: 1px solid var(--bg-color);
+    background-color: #FFF;
+    border: 1px solid ${props => props.theme.isTM ? '#FFF' : 'var(--bg-color)'};
     border-radius: 25px;
     cursor: pointer;
     ${shadow};
@@ -227,9 +230,11 @@ export const RightWrapper = styled.div`
           height: 40px;
           line-height: 40px;
           padding: 0 16px;
+
           &.login {
             color: var(--text-color2);
           }
+
           &:hover {
             background-color: #f5f5f5;
           }

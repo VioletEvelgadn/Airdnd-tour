@@ -4,7 +4,8 @@ const GlobalSlice = createSlice( {
     name: 'global',
     initialState: {
         headerConfig:{
-            isFixed: false
+            isFixed: false,
+            topTM: false,
         }
     },
     reducers: {

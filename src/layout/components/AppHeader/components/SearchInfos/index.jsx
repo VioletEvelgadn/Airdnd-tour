@@ -1,6 +1,6 @@
 import React, { memo } from 'react'
 
-const Index = memo(({infos = []}) => {
+const SearchInfos = memo(({infos = []}) => {
   return (
     <div className='bar'>
       {infos.map((item, index) => (
@@ -16,6 +16,6 @@ const Index = memo(({infos = []}) => {
   )
 })
 
-Index.displayName = 'Index'
+SearchInfos.displayName = 'SearchInfos'
 
-export default Index
+export default SearchInfos

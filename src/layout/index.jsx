@@ -23,4 +23,6 @@ const Layout = memo( () => {
     )
 })
 
+Layout.displayName = 'Layout'
+
 export default Layout
