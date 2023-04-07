@@ -1,0 +1,12 @@
+// css定义变量的方式:
+// 1. scss语法  $a: #FFF;  （只能在scss中使用）  css-in-js[styled-components]
+// 2. css var语法 【主流】
+
+// 全局变量 【语法: --变量名: 值;  使用: var(--变量名) 】
+:root {
+  --p-color: #ff385c;
+  --p-color2: #00848a;
+  --text-color: #484848;
+  --text-color2: #222;
+  --bg-color: #e9e9e9;
+}

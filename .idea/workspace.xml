@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63bb3548-4695-419e-b215-f3d1d1b6e1e4" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="package.json" />
+        <option value="JavaScript File" />
+        <option value="vue setup" />
+        <option value="jsx" />
+        <option value="style" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NaNQSeP7KbJpRfOPcsvNGQuYqO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/学习/我的文件/React/day-05/src/layout/components/AppHeader&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\jet\\WebStorm\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\学习\我的文件\React\day-05\src\layout\components\AppHeader" />
+      <recent name="D:\学习\我的文件\React\day-05\src\hooks" />
+      <recent name="D:\学习\我的文件\React\day-05\src\basr_ui" />
+      <recent name="D:\学习\我的文件\React\day-05\src\assets\img" />
+      <recent name="D:\学习\我的文件\React\day-05\src\assets\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\学习\我的文件\React\day-05\src\layout\components\AppHeader\components\SearchTabs" />
+      <recent name="D:\学习\我的文件\React\day-05\src\layout\components\AppHeader\components\SearchInfos" />
+      <recent name="D:\学习\我的文件\React\day-05\src\layout\components\AppHeader\components" />
+      <recent name="D:\学习\我的文件\React\day-05\src\assets\data" />
+      <recent name="D:\学习\我的文件\React\day-05\src\style" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="63bb3548-4695-419e-b215-f3d1d1b6e1e4" name="变更" comment="" />
+      <created>1679898217435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679898217435</updated>
+      <workItem from="1679898224881" duration="11938000" />
+      <workItem from="1679973819981" duration="107000" />
+      <workItem from="1679974005213" duration="2096000" />
+      <workItem from="1679985453351" duration="12908000" />
+      <workItem from="1680059857675" duration="6334000" />
+      <workItem from="1680074851893" duration="11185000" />
+      <workItem from="1680174863019" duration="4624000" />
+      <workItem from="1680232226549" duration="16682000" />
+      <workItem from="1680433418884" duration="1487000" />
+      <workItem from="1680482500811" duration="20330000" />
+      <workItem from="1680578456048" duration="7731000" />
+      <workItem from="1680678551145" duration="11716000" />
+      <workItem from="1680779967572" duration="2384000" />
+      <workItem from="1680833371296" duration="2091000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
